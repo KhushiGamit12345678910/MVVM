@@ -101,6 +101,7 @@ class RegistrationViewModel(application: Application) : AndroidViewModel(applica
                                 )
                             )
 
+
                         )
                     } catch (e: Exception) {
                         dataMutable.postValue(
