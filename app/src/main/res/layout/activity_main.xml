@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="MainActivity"
+            type="com.example.mvvmarchitecture.MainActivity" />
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:context=".MainActivity">
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/loginImage"
+                android:layout_width="@dimen/dimen_300dp"
+                android:layout_height="@dimen/dimen_150dp"
+                android:layout_marginTop="@dimen/dimen_30dp"
+                android:src="@drawable/placeholder"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/welcomTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_20dp"
+                android:gravity="center"
+                android:text="@string/welcome"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dimen_25sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/loginImage" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                android:gravity="center"
+                android:text="@string/text_string"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/welcomTxt" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/getStarted"
+                style="@style/editButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_130dp"
+                android:background="@drawable/button"
+                android:text="@string/get_started"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/haveAccount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dimen_60dp"
+                android:layout_marginTop="@dimen/dimen_20dp"
+                android:text="@string/have_account"
+                app:layout_constraintEnd_toStartOf="@+id/textloginGetstart"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/getStarted" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/textloginGetstart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dimen_220dp"
+                android:layout_marginTop="@dimen/dimen_20dp"
+                android:layout_marginEnd="@dimen/dimen_20dp"
+                android:text="@string/log_in"
+                android:textColor="@color/teal_200"
+                android:textSize="@dimen/dimen_15sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/haveAccount"
+                app:layout_constraintStart_toEndOf="@+id/haveAccount"
+                app:layout_constraintTop_toBottomOf="@+id/getStarted" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+
+</layout>

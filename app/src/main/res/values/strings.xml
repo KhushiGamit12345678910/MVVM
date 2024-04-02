@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">MVVMArchitecture</string>
+
+    /* ----------------- All Enter Inputs ---------------- */
+
+    <string name="fullname"> Full name</string>
+    <string name="enter_full_name">Enter fullname</string>
+    <string name="enter_password">Enter password</string>
+    <string name="password">Password</string>
+    <string name="enter_email">Enter email</string>
+    <string name="enter_mobile">Enter mobile number</string>
+    <string name="enter_address">Enter address</string>
+    <string name="enter_username">Enter username</string>
+    <string name="insert_data">Successfully inserted</string>
+
+    /* ----------------- Error Messages -------------- */
+
+    <string name="please_enter_fullname">please enter fullname</string>
+    <string name="please_enter_mobile">please enter mobile number</string>
+    <string name="please_enter_address">please enter address</string>
+    <string name="please_enter_email">please enter email </string>
+    <string name="please_enter_password">please enter password </string>
+    <string name="please_enter_password_length">please enter at list six character password </string>
+    <string name="invalid_email">invalid email </string>
+    <string name="please_enter_valid_email">Please enter valid email </string>
+    <string name="valid_email">valid email </string>
+    <string name="error">password is not match</string>
+    <string name="error_message">Enter valid password</string>
+    <string name="please_edittext_char">please enter only alphabet character</string>
+
+
+    /* ------------------ Text String ---------------*/
+
+
+    <string name="registration">Registration</string>
+    <string name="set_title">Alert !!</string>
+    <string name="data_inserted">Data inserted</string>
+    <string name="set_message">This is a just message</string>
+    <string name="welcome">Welcome</string>
+    <string name="have_account">Already have a account?</string>
+    <string name="dialog_message">Correct email and password</string>
+    <string name="ok_text">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="no_text">No</string>
+    <string name="name">fullname</string>
+    <string name="login_txt">login</string>
+    <string name="are_u_sure">Are you sure?</string>
+    <string name="register">register</string>
+    <string name="email_add">Email</string>
+    <string name="delete">Delete</string>
+    <string name="loading">Loading......</string>ca
+    <string name="get_image">Get Image</string>
+    <string name="camera">Camera</string>
+    <string name="login_now">Log In Now</string>
+    <string name="signup_now">Sign Up Now</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="get_started">Getting Started</string>
+    <string name="do_not_have_account">Do not have a account?</string>
+    <string name="text_string">Create an account and access thousand \n of cool stuff</string>
+    <string name="continue_our_app">Please login to continue our app</string>
+    <string name="fill_the_details">Please fill the details and create account</string>
+
+
+    /* ----------------------- Option Menu Strings ------------- */
+    <string name="my_account">My Account</string>
+    <string name="home">Home</string>
+    <string name="setting">Setting</string>
+
+    /* ---------------Buttons String -----------------*/
+
+    <string name="login">Login</string>
+    <string name="or_connet">or connect</string>
+    <string name="or_connet_with">or connect with</string>
+    <string name="logout">Logout</string>
+    <string name="signup">Sign Up</string>
+    <string name="submit">Submit</string>
+    <string name="signin">Sign In</string>
+    <string name="log_in">Log In</string>
+    <string name="ok">Ok</string>
+
+    /* --------- successfully messages ----------------*/
+    <string name="login_successfully">Login successfully</string>
+    <string name="not_delete_data">not deleted data</string>
+    <string name="registration_successfully">Registration successfully</string>
+    <string name="invalid_login_pass">username and password is not match</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="internet_connection_not_available">Internet connection not available</string>
+
+    /* --------- Dialog-box messages ----------------*/
+    <string name="confirmation_data_deleted">Are you sure delete data</string>
+    <string name="pleaseEnterName">please enter name</string>
+    <string name="email">email</string>
+
+
+</resources>
